@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.appContainer {
+  font-family: Lato, Arial, Calibri, sans-serif;
+  text-align: center;
+  background-image: url('../public/sunset_mountain.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+
+
+.main {
+  min-height: 100vh;
+  position: relative;
+  flex-grow: 1;
+  margin-left: calc(220px + 4vw);
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resumeBody {
+  width: 80%; 
+  max-width: 1500px; 
+  height: calc(270px + 50vh + 30vw); 
+  background-color: #f4f4f4;
+  color: #4A4C5A;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  text-align: center;
+  margin-top: calc(5vh + 4vw);
+  margin-bottom: calc(2vh + 2vw);
+  opacity: 90%;
+  border: 7px solid; 
+  border-image: linear-gradient(
+      to right, 
+      #F68A7C 18%,  
+      #4A4C5A 21%, 
+      #4A4C5A 60%,
+      #F68A7C 63%,
+      #F68A7C 80%,
+      #4A4C5A 83%
+  ) 1;
+  border-left: none; 
+  border-right: none; 
+  overflow-y: auto;
+}

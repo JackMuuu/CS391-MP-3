@@ -1,0 +1,71 @@
+.proH2 {
+    font-family: 'Lato';
+    font-size: calc(1vh + 2.4vw);
+    font-weight: 100;
+    margin: 8vh 0;
+}
+
+.proH3 {
+    font-family: 'Lato';
+    font-size: calc(0.8vh + 1.8vw);
+    font-weight: 100;
+    text-align: left;
+    margin-left: calc(10px + 4vw);
+    margin-right: calc(10px + 4vw);
+    margin-bottom: calc(0.2vh + 0.2vw);
+    border-bottom: 0.5px solid #D5D5D5;
+}
+
+.proH4 {
+    font-family: 'Lato';
+    font-size: calc(0.5vh + 1.1vw);
+    font-weight: 100;
+    text-align: left;
+    margin-left: calc(10px + 4vw);
+}
+
+.proP {
+    font-family: 'Lato';
+    font-size: calc(0.5vh + 1vw);
+    line-height: calc(0.8vh + 1.2vw);
+    text-align: left;
+    margin: calc(1vh + 1vw) calc(10px + 4vw);
+}
+
+.calWrap {
+    display: flex;
+    flex-direction: column;
+    margin: calc(10px + 5vw) 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    border: none;
+}
+
+.inputField {
+    width: calc(50px + 1vh + 1vw);
+    height: calc(50px + 1vh + 1vw);
+    font-size: calc(0.5vh + 1.5vw);
+    font-family: 'Lato';
+}
+
+.icon {
+    width: calc(50px + 1vh + 1vw);
+    height: auto;
+}
+
+.result {
+    border: none;
+    text-align: center;
+    margin-top: calc(1vh + 1vw);
+}
+
+.negative {
+    color: red;
+}

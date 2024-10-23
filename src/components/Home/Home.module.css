@@ -1,0 +1,90 @@
+.profileContainer {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.imgContainer {
+    display: inline-block; 
+    padding: 1px; 
+    border: 3px solid #F68A7C;
+    margin: calc(1vh + 2vw) 0;
+    margin-left: calc(1.2vh + 1vw);
+    margin-right: calc(1.1vh + 1vw);
+    border-radius: 50%;
+    width: 25%; 
+    height: fit-content; 
+    max-width: 320px; 
+}
+
+.responsiveImg {
+    width: 100%; 
+    height: auto; 
+    max-width: 100%; 
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+.introWords {
+    display: block;
+    margin: calc(1vh + 2.6vw) 0;
+    margin-right: calc(1.5vh + 1.5vw);
+    margin-left: calc(1.3vh + 1.3vw);
+    text-align: left;
+}
+
+.introWords h2 {
+    font-family: 'Lato';
+    font-size: calc(1vh + 2.4vw);
+    margin-top: 1vw;
+    font-weight: 100;
+    border-bottom: 1px solid #F68A7C;
+    margin-bottom: calc(0.5vh + 0.5vw);
+}
+
+.introWords p {
+    font-family: 'Lato';
+    font-size: calc(0.5vh + 1vw);
+}
+
+#title {
+    margin-bottom: calc(0.5vh + 0.5vw);
+}
+
+.intro {
+    font-family: 'Lato';
+    text-align: left;
+}
+
+.bulletpoints {
+    display: flex;
+    flex-direction: row;
+}
+
+.bullet {
+    width: 5%; 
+    height: 5%; 
+    margin-left: calc(7vw);
+    padding-top: calc(2vh);
+}
+
+.qsas {
+    margin-left: calc(4vw);
+    display: inline-block;
+    border-bottom: 0.5px solid #D5D5D5;
+    width: 65%;
+}
+
+.qs {
+    font-weight: 600;
+    margin-top: calc(2vh);
+    font-size: calc(0.5vh + 1vw);
+}
+
+.as {
+    font-weight: 100;
+    margin-right: calc(4.5vw);
+    font-size: calc(0.5vh + 0.8vw);
+    line-height: calc(0.8vh + 1.2vw);
+}

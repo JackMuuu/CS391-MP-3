@@ -1,0 +1,21 @@
+.header {
+    background-color:rgb(12, 12, 12);
+    color: white;
+    font-family: 'Lato';
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+    height: calc(38px + 0.6vw);
+    opacity: 80%;
+    text-align: center;
+}
+
+.headerh1{
+    padding-top: 2px;
+    font-size: calc(15px + 0.5vw);
+}
+
+.headerp{
+    font-size: calc(7px + 0.2vw);
+}

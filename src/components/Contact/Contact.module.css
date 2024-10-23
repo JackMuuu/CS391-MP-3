@@ -1,0 +1,31 @@
+.contactH2 {
+    font-family: 'Lato';
+    font-size: calc(1vh + 2.4vw);
+    font-weight: 100;
+    margin: 8vh 0;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0 calc(7vh + 7vw);
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.contactI {
+    margin-left: 5vw;
+    margin-right: 6px;
+    height: calc(4vh + 4vw);
+    width: calc(4vh + 4vw);
+}
+
+.contactP {
+    font-size: calc(12px + 0.5vw);
+    color: black;
+}

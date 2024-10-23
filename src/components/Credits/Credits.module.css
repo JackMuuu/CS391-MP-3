@@ -1,0 +1,17 @@
+.titleCredit{
+    font-family: 'Lato';
+    font-size: calc(1vh + 2.4vw);
+    font-weight: 100;
+    margin: 8vh 0;
+}
+
+
+.wordsCredit{
+    font-family: 'Lato';
+    font-size: calc(0.8vh + 1.8vw);
+    font-weight: 100;
+    text-align: center;
+    margin-left: calc(10px + 4vw);
+    margin-right: calc(10px + 4vw);
+    margin-bottom: calc(2vh + 2vw);
+}

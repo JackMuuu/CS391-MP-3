@@ -1,0 +1,15 @@
+.footer {
+    font-family: 'Lato';
+    background-color:rgb(12, 12, 12);
+    color: white;
+    text-align:center;
+    padding-top: 2px;
+    font-size: calc(10px + 0.2vh);
+    position:relative;
+    bottom: 0;
+    width: calc(100% - 220px - 4vw);
+    height: 20px;
+    opacity: 70%;
+    z-index: 10;
+    margin-left: calc(220px + 4vw);
+}
