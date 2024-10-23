@@ -7,7 +7,7 @@ function Home() {
       <section className="resumeBody">
         <div className={styles.profileContainer}>
           <div className={styles.imgContainer}>
-            <img src="./public/profile.jpg" alt="Profile photo" className={styles.responsiveImg} />
+            <img src="/profile.jpg" alt="Profile photo" className={styles.responsiveImg} />
           </div>
 
           <div className={styles.introWords}>
@@ -34,7 +34,7 @@ function Home() {
 
         <div className={styles.intro}>
           <div className={styles.bulletpoints}>
-            <img src="./public/number-1.png" alt="no.1" className={styles.bullet} />
+            <img src="/number-1.png" alt="no.1" className={styles.bullet} />
             <div className={styles.qsas}>
               <p className={styles.qs}>FULL NAME</p>
               <p className={styles.as}>Yuanman Mu</p>
@@ -42,7 +42,7 @@ function Home() {
           </div>
 
           <div className={styles.bulletpoints}>
-            <img src="./public/number-2.png" alt="no.2" className={styles.bullet} />
+            <img src="/number-2.png" alt="no.2" className={styles.bullet} />
             <div className={styles.qsas}>
               <p className={styles.qs}>SCHOOL</p>
               <p className={styles.as}>Boston University</p>
@@ -50,7 +50,7 @@ function Home() {
           </div>
 
           <div className={styles.bulletpoints}>
-            <img src="./public/number-3.png" alt="no.3" className={styles.bullet} />
+            <img src="/number-3.png" alt="no.3" className={styles.bullet} />
             <div className={styles.qsas}>
               <p className={styles.qs}>LOCATION</p>
               <p className={styles.as}>Boston, MA</p>
@@ -58,7 +58,7 @@ function Home() {
           </div>
 
           <div className={styles.bulletpoints}>
-            <img src="./public/number-4.png" alt="no.4" className={styles.bullet} />
+            <img src="/number-4.png" alt="no.4" className={styles.bullet} />
             <div className={styles.qsas}>
               <p className={styles.qs}>INTRO</p>
               <p className={styles.as}>
