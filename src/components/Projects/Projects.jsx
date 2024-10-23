@@ -92,13 +92,13 @@ function Projects() {
                             className={styles.inputField}
                         />
                         <button className={styles.button} onClick={addition}>
-                            <img src="../../public/plus.png" alt="plus" className={styles.icon} />
+                            <img src="./public/plus.png" alt="plus" className={styles.icon} />
                         </button>
                         <button className={styles.button} onClick={multiply}>
-                            <img src="../../public/multiply.png" alt="multiply" className={styles.icon} />
+                            <img src="./public/multiply.png" alt="multiply" className={styles.icon} />
                         </button>
                         <button className={styles.button} onClick={power}>
-                            <img src="../../public/power.png" alt="power" className={styles.icon} />
+                            <img src="./public/power.png" alt="power" className={styles.icon} />
                         </button>
                     </div>
 
@@ -112,13 +112,13 @@ function Projects() {
                             className={styles.inputField}
                         />
                         <button className={styles.button} onClick={minus}>
-                            <img src="../../public/minus.png" alt="minus" className={styles.icon} />
+                            <img src="./public/minus.png" alt="minus" className={styles.icon} />
                         </button>
                         <button className={styles.button} onClick={divide}>
-                            <img src="../../public/divide.png" alt="divide" className={styles.icon} />
+                            <img src="./public/divide.png" alt="divide" className={styles.icon} />
                         </button>
                         <button className={styles.button} onClick={clearFunction}>
-                            <img src="../../public/clear.png" alt="clear" className={styles.icon} />
+                            <img src="./public/clear.png" alt="clear" className={styles.icon} />
                         </button>
                     </div>
 
